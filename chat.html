@@ -1,43 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="chat.css">
     <title>Echo AI</title>
 </head>
-
-<body>
-
-    <h2>Echo AI</h2>
-    <div class="centerm">
-        <div class="header">
-            <h3>ChatBot</h3>
-            <button id="clearchat">
-                <img src="images/c1.png" id="imgcl">
-            </button>
-        </div>
-        
-        <div id="chatbox">
-            <div id="wel">
-                <p1>Welcome to Echo AI</p1><br>
-                <p2>How can I Help You?</p2></br>
+    <body>
+        <h2>Echo AI</h2>
+        <div class="centerm">
+            <div class="header">
+                <h3>ChatBot</h3>
+                <button id="clearchat">
+                    <img src="images/c1.png" id="imgcl">
+                </button>
+            </div>
+            <div id="chatbox">
+                <div id="wel">
+                    <p1>Welcome to Echo AI</p1><br>
+                    <p2>How can I Help You?</p2></br>
+                </div>
+            </div>
+            <div class="inb">
+                <textarea id="user-input" placeholder="Type here..." rows="1"></textarea>
+                <button id="sub" type="button" onclick="sendMessage()">
+                    <img src="images/send2.png" id="sendimg">
+                </button>
             </div>
         </div>
-
-        <div class="inb">
-            <textarea id="user-input" placeholder="Type here..." rows="1"></textarea>
-
-
-            <button id="sub" type="button" onclick="sendMessage()">
-                <img src="images/send2.png" id="sendimg">
-            </button>
-        </div>
-
-    </div>
-
-</body>
-<script src="script.js"></script>
-
+    </body>
+    <script src="script.js"></script>
 </html>
